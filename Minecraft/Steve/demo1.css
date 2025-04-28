@@ -1,0 +1,76 @@
+/* Cái đầu */
+.Head{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(224, 186, 137);
+    justify-self: center;
+}
+/* Tóc */
+.HairT{
+    width: 100px;
+    height: 20px;
+    background-color: #51320b;
+}
+.HairB{
+    display: flex;
+    justify-content: space-between;
+}
+.HairL{
+    width: 20px;
+    height: 10px;
+    background-color: #51320b;
+}
+.HairR{
+    width: 20px;
+    height: 10px;
+    background-color: #51320b;
+}
+/* Mắt */
+.Eyes{
+    display: flex;
+    margin-top: 3px;
+    justify-content: space-around;
+}
+.EyesL{
+    width: 30px;
+    height: 15px;
+    background-color: aliceblue;
+}
+
+.EyesR{
+    width: 30px;
+    height: 15px;
+    background-color: aliceblue;
+}
+.irises1{
+    width: 13px;
+    height: 15px;
+    background-color: rgb(96, 32, 156);
+    justify-self: flex-end;
+}
+.irises2{
+    width: 13px;
+    height: 15px;
+    background-color: rgb(96, 32, 156);
+    justify-self: flex-start;
+}
+/* Mũi */
+.Nose{
+    width: 20px;
+    height: 10px;
+    background-color: #643c07;
+    justify-self: center;
+}
+/* Miệng - Râu */
+.beard{
+    width: 50px;
+    height: 22px;
+    background-color: #3d2403;
+    justify-self: center;
+}
+.mouth{
+    width: 20px;
+    height: 12px;
+    background-color: sienna;
+    justify-self: center;
+}
