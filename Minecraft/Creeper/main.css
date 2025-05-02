@@ -238,3 +238,291 @@
 }
 
 /* Complete Head */
+/* --------- Body-------- */
+.Body{
+    width: 60px;
+    height: 90px;
+    margin-top: 0.5px;
+    justify-self: center;
+    background-color:#52d23f;
+}
+.Body1{
+    width: 60px;
+    height: 20px;
+    display: flex;
+}
+.B1{
+    width: 20px;
+    height: 20px;
+}
+.child4{
+    width: 10px;
+    height: 10px;
+    background-color:#12b202;
+}
+.B2{
+    width: 10px;
+    height: 20px;
+    background-color:#69bb59 ;
+}
+.B3{
+    width: 20px;
+    height: 20px;
+}
+.B4{
+    width: 10px;
+    height: 20px;
+    align-content: flex-end;
+}
+.child5{
+    width: 10px;
+    height: 10px;
+    background-color:#378901 ;
+}
+
+.Body2{
+    width: 60px;
+    height: 20px;
+    display: flex;
+}
+.B2_1{
+    width: 20px;
+    height: 20px;
+}
+.child6{
+    width: 20px;
+    height: 10px;
+    background-color:#70c62f;
+}
+.B2_2{
+    width: 10px;
+    height: 20px;
+}
+.child7{
+    width: 10px;
+    height: 10px;
+    background-color: #11b202;
+}
+
+.B2_3{
+    width: 20px;
+    height: 20px;
+    align-content: flex-end;
+}
+.child8{
+    width: 20px;
+    height: 10px;
+    background-color:  #70c62f;
+}
+.B2_4{
+    width: 10px;
+    height: 20px;
+    background-color: #70c62f;
+}
+
+.Body3{
+    width: 60px;
+    height: 20px;
+}
+.B3_1{
+    width: 50px;
+    height: 10px;
+    justify-self: flex-end;
+    background-color:#12b102 ;
+}
+.B3_2{
+    width: 20px;
+    height: 10px;
+    background-color: #70c62f;
+}
+
+.Body4{
+    width: 60px;
+    height: 20px;
+    display: flex;
+}
+.B4_1{
+    width: 20px;
+    height: 20px;
+    background-color:#378901 ;
+}
+.child9{
+    width: 10px;
+    height: 10px;
+    background-color:  #70c62f;
+}
+.child10{
+    width: 10px;
+    height: 10px;
+    background-color:  #11b202;
+}
+.B4_2{
+    width: 20px;
+    height: 20px;
+    align-content: flex-end;
+}
+.B4_2_1{
+    width: 20px;
+    height: 10px;
+    background-color: #70c62f;
+}
+.child11{
+    width: 10px;
+    height: 10px;
+    background-color:#378901 ;
+}
+.B4_3{
+    width: 20px;
+    height: 20px;
+    background-color: #11b202;
+}
+
+.Body5{
+    width: 60px;
+    height: 10px;
+    display: flex;
+}
+.B5_1{
+    width: 20px;
+    height: 10px;
+    background-color: #11b202 ;
+}
+.B5_2{
+    width: 10px;
+    height: 10px;
+}
+.B5_3{
+    width: 10px;
+    height: 10px;
+    background-color:#11b204 ;
+}
+.B5_4{
+    width: 10px;
+    height: 10px;
+    background-color:#3b8c08 ;
+}.B5_5{
+    width: 10px;
+    height: 10px;
+    background-color:#90c985 ;
+}
+/* Complete Body */
+
+.Legs{
+    width: 80px;
+    height: 40px;
+    margin-top: 0.5px;
+    justify-self: center;
+    background-color:#52d23f ;
+}
+
+.Leg1{
+    width: 80px;
+    height: 20px;
+    display: flex;
+}
+
+.L1_1{
+    width: 20px;
+    height: 20px;
+    background-color: #69bb59;
+}
+.child12{
+    width: 10px;
+    height: 10px;
+    background-color:#11b205 ;
+}
+.L1_2{
+    width: 20px;
+    height: 20px;
+    align-content: flex-end;
+}
+.child13{
+    width: 10px;
+    height: 10px;
+    justify-self: flex-end;
+    background-color: #90c985 ;
+}
+.L1_3{
+    width: 40px;
+    height: 20px;
+    background-color:#68ba58 ;
+}
+.child14{
+    width: 30px;
+    height: 10px;
+    background-color:#52d23f ;
+    justify-self: flex-end;
+}
+.child15{
+    width: 10px;
+    height: 10px;
+    justify-self: flex-end;
+    background-color: #70c62f;
+}
+
+.Leg2{
+    width: 80px;
+    height: 20px;
+    display: flex;
+    background-color: #6fc62f;
+}
+.L2_1{
+    width: 20px;
+    height: 20px;
+}
+.child16{
+    width: 10px;
+    height: 10px;
+    justify-self: flex-end;
+    background-color: #0b060c;
+}
+.child17{
+    width: 10px;
+    height: 10px;
+    background-color: #0b060c;
+}
+.L2_2{
+    width: 20px;
+    height: 20px;
+}
+.child18{
+    width: 10px;
+    height: 10px;
+    justify-self: flex-end;
+    background-color: #0b060c;
+}
+.child19{
+    width: 10px;
+    height: 10px;
+    background-color: #0b060c;
+}
+.L2_3{
+    width: 20px;
+    height: 20px;
+}
+.child20{
+    width: 10px;
+    height: 10px;
+    justify-self: flex-end;
+    background-color: #0b060c;
+}
+.child21{
+    width: 10px;
+    height: 10px;
+    background-color: #0b060c;
+}
+.L2_4{
+    width: 20px;
+    height: 20px;
+}
+.child22{
+    width: 10px;
+    height: 10px;
+    justify-self: flex-end;
+    background-color: #0b060c;
+}
+.child23{
+    width: 10px;
+    height: 10px;
+    background-color: #0b060c;
+}
