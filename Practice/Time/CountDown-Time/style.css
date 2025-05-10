@@ -1,0 +1,68 @@
+.Khung{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    justify-self: center;
+    box-shadow: 5px 5px 40px plum;
+}
+.Ten{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: blueviolet;
+}
+.main{
+    width: 500px ;
+    height: 250px;
+    display: flex;
+}
+.Khung_gio{
+    flex: 1;
+    margin-left: 5px;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(122, 64, 175);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#countdownDisplay{
+    font-size: 50px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Nhap_thoiGian{
+    flex: 1;
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#button_Time{
+    width: 100px;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    border-color: blueviolet;
+    border-radius: 20px ;
+    background-color: white;
+    margin-top: 10px;
+}
+#button_Time:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+#secondsInput{
+    width: 180px;
+    height: 20px;
+    color: rgb(80, 32, 125);
+    border-color: blueviolet;
+    border-radius: 5px;
+}
+
+
