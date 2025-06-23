@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Web_Creeper.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="Khung_tieuDe">
+        <div class="Khung_Text">
+            <div class="Text_tieuDe">Museum Minecraft</div>
+        </div>
+    </div>
+
+    <div class="Thanh_Bar">
+        <div class="item active" data-category="All">All</div>
+        <div class="item" data-category="Humans">Humans</div>
+        <div class="item" data-category="Monsters">Monsters</div>
+        <div class="item" data-category="Trees">Trees</div>
+        <div class="item" data-category="Others">Others</div>
+        
+    </div>
+
+    <div class="San_Pham" data-category="All">
+        <div class="San_Pham_Humans" data-category="Humans">
+            <div class="Khung_NhanVat">
+                <div class="img_NhanVat">
+                    <iframe src="../Steve/demo1.html" width="300" height="250"  frameborder="0"></iframe>
+                </div>
+                <div class="Name_NhanVat">
+                    <h2 id="Name_Steve">Steve</h2>
+                </div>
+            </div>
+        </div>
+        <div class="San_Pham_Monsters" data-category="Monsters">
+            <div class="Khung_NhanVat">
+                <div class="img_NhanVat">
+                    <iframe src="../Creeper/index.html" width="300" height="250"  frameborder="0"></iframe>
+                </div>
+                <div class="Name_NhanVat">
+                    <h2 id="Name_Creeper">Creeper</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

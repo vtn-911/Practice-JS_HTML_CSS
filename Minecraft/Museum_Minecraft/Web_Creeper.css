@@ -1,0 +1,121 @@
+.Khung_tieuDe{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%)
+}
+
+.Khung_Text{
+    width: 300px;
+    height: 60px;
+    border: hidden;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.Text_tieuDe{
+    color: rgb(194, 98, 14);
+    font-size: 30px;
+    font-family: 'Tagesschrift', sans-serif;
+}
+.tagesschrift-regular {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Thanh Bar */
+  .Thanh_Bar{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background: #96e6a1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item{
+    width: 10%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.item:hover,.item:active{
+    background-color: #b26500;
+    color:antiquewhite ;
+}
+
+/* Khung Nhan Vat */
+.San_Pham{
+    display: flex;
+    flex-wrap: wrap;
+}
+.San_Pham > div {
+    display: block;
+  }
+  
+.Khung_NhanVat{
+    width: 300px;
+    height: 310px;
+    margin: 20px 20px;
+    border: solid black;
+    border-radius: 50px ;
+    cursor: pointer;
+    justify-self: center;
+}
+.Khung_NhanVat:hover,.Khung_NhanVat:active{
+    box-shadow: 2px 2px 20px rgb(185, 226, 144);
+}
+.img_NhanVat{
+    margin-top: 30px;
+}
+.Name_NhanVat{
+    width: 100px;
+    height: 50px;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+#Name_Creeper{
+    background: linear-gradient(270deg, #00ff00, #008000, #00ff00);
+    background-size: 200% auto; /* Tăng kích thước gradient để có không gian chuyển động */
+    animation: gradientMove 3s linear infinite; 
+
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Name_Steve{
+    background: linear-gradient(270deg, #dcdc09, #926504,#dcdc09); 
+    background-size: 200% auto; /* Tăng kích thước gradient để có không gian chuyển động */
+    animation: gradientMove 3s linear infinite;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% center;
+    }
+    100% {
+        background-position: -100% center;
+    }
+}
