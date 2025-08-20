@@ -1,0 +1,37 @@
+body{
+    width: 100%;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 600px;
+    height: 160px;
+    background-color: rgb(202, 253, 225);
+    justify-self: center;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    animation: successIn 1s;
+}
+.information{
+    width: 400px;
+    margin: 0 0 0 30px;
+    position: absolute;
+}
+.successfulHeader{
+    display: flex;
+    justify-content: space-around;
+}
+.hr{
+    width: 550px;
+    height: 2.5px;
+    background-color: green;
+    border-radius: 20px;
+}
+@keyframes successIn {
+    from {opacity: 0.5; top: -20px;}
+    to {opacity: 1; top: 0px;}
+
+}
